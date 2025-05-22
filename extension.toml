@@ -1,0 +1,7 @@
+id = "gafelson"
+name = "gafelson Theme"
+version = "1.0.1"
+schema_version = 1
+authors = ["Soheil Fouladvandi <filip@janevski.dev>"]
+description = "A sleek, focused dark theme for Zed"
+repository = "https://github.com/gafelson/zed-theme"
