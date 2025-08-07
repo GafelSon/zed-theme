@@ -1,6 +1,6 @@
 {
-  "$schema": "https://zed.dev/schema/themes/v0.2.0.json ",
-  "name": "Gafelson Pro Theme",
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+  "name": "Gafelson Theme",
   "author": "Soheil Fouladvandi <@gafelson>",
   "themes": [
     {
@@ -182,7 +182,7 @@
         ],
         "syntax": {
           "attribute": {
-            "color": "#4ECDC4",
+            "color": "#FFC44C",
             "font_style": null,
             "font_weight": null
           },
@@ -192,13 +192,13 @@
             "font_weight": null
           },
           "comment": {
-            "color": "#586069",
+            "color": "#7A869A",
             "font_style": "italic",
             "font_weight": null
           },
           "comment.doc": {
-            "color": "#6A737D",
-            "font_style": null,
+            "color": "#7A869A",
+            "font_style": "italic",
             "font_weight": null
           },
           "constant": {
@@ -212,9 +212,11 @@
             "font_weight": 700
           },
           "embedded": {
-            "color": "#CAC8C4",
-            "font_style": null,
-            "font_weight": null
+            "attribute": {
+              "color": "#4ECDC4",
+              "font_style": null,
+              "font_weight": 700
+            }
           },
           "emphasis": {
             "color": "#FFC44C",
@@ -247,9 +249,11 @@
             "font_weight": null
           },
           "label": {
-            "color": "#4ECDC4",
-            "font_style": null,
-            "font_weight": null
+            "tag": {
+              "color": "#4ECDC4",
+              "font_style": null,
+              "font_weight": 700
+            }
           },
           "link_text": {
             "color": "#FFC44C",
@@ -297,7 +301,7 @@
             "font_weight": null
           },
           "punctuation.bracket": {
-            "color": "#6A737D",
+            "color": "#FFC44C",
             "font_style": null,
             "font_weight": null
           },
@@ -319,7 +323,7 @@
           "string": {
             "color": "#6CDA8C",
             "font_style": null,
-            "font_weight": null
+            "font_weight": 700
           },
           "string.escape": {
             "color": "#6A737D",
@@ -338,11 +342,6 @@
           },
           "string.special.symbol": {
             "color": "#FF6B6B",
-            "font_style": null,
-            "font_weight": null
-          },
-          "tag": {
-            "color": "#4ECDC4",
             "font_style": null,
             "font_weight": null
           },
